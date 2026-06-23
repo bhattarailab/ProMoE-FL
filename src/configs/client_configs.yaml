@@ -1,0 +1,81 @@
+dataset_mimic:
+  img_path: /scratch/achhetr1/miccai26/clean_code/mimic-cxr-resized 
+  ann_path: //scratch/achhetr1/miccai26/clean_code
+  dset_name: mimic-cxr
+  view: APPA
+  partition: iid1_noleak
+
+dataset_padchest:
+  img_path: /scratch/achhetr1/padchest_processed
+  ann_path: /scratch/achhetr1/fedmmll
+
+  dset_name: padchest
+  view: APPA
+  partition: iid14
+
+dataset_chexpert:
+  img_path: /scratch/achhetr1/data/chest-xray/DATASETS
+  ann_path: /scratch/achhetr1/fedmmll
+  dset_name: chexpert
+  view: frontal
+  partition: iid1_8
+
+dataset_iu:
+  img_path: /scratch/achhetr1/data/chest-xray/DATASETS/iuxray_kaggle/images/images_normalized
+  ann_path: /scratch/achhetr1/fedmmll
+  dset_name: iuxray
+  view: frontal
+  partition: iid1_noleak
+
+dataloader:
+  batch_size: 48
+  eval_batch_size: 96
+  num_workers: 16
+  crop_size: 224
+
+model:
+  name: classifier
+  embed_dim: 256  # origin 2048
+  proj_dim: 256
+  cnn_type: resnet50
+  txt_type: bert-base-uncased
+
+# optimizer configuration
+optimizer:
+  name: adam
+  learning_rate: 0.0001
+  weight_decay: 0.0
+
+# lr scheduler configuration
+lr_scheduler:
+  name: cosine_annealing
+  T_max: 30
+  warmup: 0
+
+# criterion configuration
+criterion:
+  name: BCEWithLogitsLoss
+
+# Feature Generator Config
+featuregen:
+  memorysize: 10
+  feature_dim: 256
+  num_class: 14
+  num_modalities: 2
+  
+# detailed training configuration
+train:
+  local_epoch: 3
+  model_save_path: model_last.pth
+  best_model_save_path: model_best.pth
+  pretrain_epochs: 0
+  finetune_epochs: 30
+  finetune_lr_decay: 0.1
+  log_step: 1000
+  grad_clip: 2
+  val_epochs: 10
+  pretrain_val_epochs: 10
+  use_fp16: True
+  output_file: model.log
+  partition: hetero
+  lambda_align: 10

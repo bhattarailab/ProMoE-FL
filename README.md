@@ -3,9 +3,6 @@
 
 **Authors:** Aavash Chhetri, Bibek Niroula, Eduard Vazquez, Yash Raj Shrestha, Prashnna Gyawali, Loris Bazzani, Binod Bhattarai
 
-**<font color='red'>Note: This repository will be updated in the next few days with the implementation and code for ProMoE-FL. Please stay tuned!</font>**
-
-
 This repository contains the official implementation of our **MICCAI 2026** paper **ProMoE-FL: Prototype-conditioned Mixture of Experts for Multimodal Federated Learning with Missing Modalities**.
 
 ![ProMoE-FL Main Figure](./figures/ProMoE-FL.png)
@@ -21,14 +18,26 @@ The framework was trained and evaluated using four public chest X-ray datasets:
 
 * [MIMIC-CXR-JPG](https://physionet.org/content/mimic-cxr-jpg/2.1.0/)
 
-* [NIH Open-I](https://www.kaggle.com/datasets/nih-chest-xrays/data)
+* [NIH Open-I](https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-university)
 
 * [PadChest](https://arxiv.org/pdf/1901.07441)
 
 * [CheXpert](https://www.kaggle.com/datasets/ashery/chexpert)
 
 
+## Usage
 
+Use `env.yml` file for environment setup and `main.py` as the entrypoint for the code. You can also refer to [script](run.sh) as the entrypoint.
+
+```sh
+python main.py --help
+```
+
+## Citation
+
+```bibtex
+
+```
 ## Acknowledgments
 
 1. This work was supported as part of the "Swiss AI initiative" by a grant from the Swiss National Supercomputing Centre (CSCS) under project ID a168 on Alps.

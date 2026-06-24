@@ -1,0 +1,750 @@
+{
+    "pneumonia": [
+        "pneumonia",
+        null
+    ],
+    "atypical pneumonia": [
+        "pneumonia",
+        null
+    ],
+    "callus rib fracture": [
+        "fracture",
+        null
+    ],
+    "clavicle fracture": [
+        "fracture",
+        null
+    ],
+    "humeral fracture": [
+        "fracture",
+        null
+    ],
+    "vertebral fracture": [
+        "fracture",
+        null
+    ],
+    "rib fracture": [
+        "fracture",
+        null
+    ],
+    "fracture": [
+        "fracture",
+        null
+    ],
+    "vertebral compression": [
+        "fracture",
+        null
+    ],
+    "vertebral anterior compression": [
+        "fracture",
+        null
+    ],
+    "laminar atelectasis": [
+        "atelectasis",
+        null
+    ],
+    "atelectasis": [
+        "atelectasis",
+        null
+    ],
+    "segmental atelectasis": [
+        "atelectasis",
+        null
+    ],
+    "total atelectasis": [
+        "atelectasis",
+        null
+    ],
+    "round atelectasis": [
+        "atelectasis",
+        null
+    ],
+    "lobar atelectasis": [
+        "atelectasis",
+        null
+    ],
+    "atelectasis basal": [
+        "atelectasis",
+        null
+    ],
+    "pleural effusion": [
+        "pleural effusion",
+        null
+    ],
+    "loculated pleural effusion": [
+        "pleural effusion",
+        null
+    ],
+    "loculated fissural effusion": [
+        "pleural effusion",
+        null
+    ],
+    "consolidation": [
+        "consolidation",
+        null
+    ],
+    "pneumothorax": [
+        "pneumothorax",
+        null
+    ],
+    "pulmonary edema": [
+        "edema",
+        null
+    ],
+    "cardiomegaly": [
+        "cardiomegaly",
+        null
+    ],
+    "mediastinal enlargement": [
+        "enlarged cardiomediastinum",
+        null
+    ],
+    "superior mediastinal enlargement": [
+        "enlarged cardiomediastinum",
+        null
+    ],
+    "aortic elongation": [
+        "enlarged cardiomediastinum",
+        null
+    ],
+    "ascendent aortic elongation": [
+        "enlarged cardiomediastinum",
+        null
+    ],
+    "descendent aortic elongation": [
+        "enlarged cardiomediastinum",
+        null
+    ],
+    "supra aortic elongation": [
+        "enlarged cardiomediastinum",
+        null
+    ],
+    "aortic aneurysm": [
+        "enlarged cardiomediastinum",
+        null
+    ],
+    "aortic button enlargement": [
+        "enlarged cardiomediastinum",
+        null
+    ],
+    "pulmonary mass": [
+        "lung lesion",
+        null
+    ],
+    "lung metastasis": [
+        "lung lesion",
+        null
+    ],
+    "mass": [
+        "lung lesion",
+        null
+    ],
+    "soft tissue mass": [
+        "lung lesion",
+        null
+    ],
+    "lepidic adenocarcinoma": [
+        "lung lesion",
+        null
+    ],
+    "granuloma": [
+        "lung lesion",
+        null
+    ],
+    "calcified granuloma": [
+        "lung lesion",
+        null
+    ],
+    "abscess": [
+        "lung lesion",
+        null
+    ],
+    "infiltrates": [
+        "lung opacity",
+        null
+    ],
+    "ground glass pattern": [
+        "lung opacity",
+        null
+    ],
+    "alveolar pattern": [
+        "lung opacity",
+        null
+    ],
+    "interstitial pattern": [
+        "lung opacity",
+        null
+    ],
+    "reticular interstitial pattern": [
+        "lung opacity",
+        null
+    ],
+    "reticulonodular interstitial pattern": [
+        "lung opacity",
+        null
+    ],
+    "bronchovascular markings": [
+        "lung opacity",
+        null
+    ],
+    "increased density": [
+        "lung opacity",
+        null
+    ],
+    "miliary opacities": [
+        "lung opacity",
+        null
+    ],
+    "multiple nodules": [
+        "lung opacity",
+        null
+    ],
+    "nodule": [
+        "lung opacity",
+        null
+    ],
+    "fibrotic band": [
+        "lung opacity",
+        null
+    ],
+    "normal": [
+        "no finding",
+        null
+    ],
+    "pleural thickening": [
+        "pleural other",
+        null
+    ],
+    "apical pleural thickening": [
+        "pleural other",
+        null
+    ],
+    "pleural plaques": [
+        "pleural other",
+        null
+    ],
+    "calcified pleural plaques": [
+        "pleural other",
+        null
+    ],
+    "calcified pleural thickening": [
+        "pleural other",
+        null
+    ],
+    "pleural mass": [
+        "pleural other",
+        null
+    ],
+    "costophrenic angle blunting": [
+        "pleural other",
+        null
+    ],
+    "central venous catheter": [
+        "support devices",
+        null
+    ],
+    "central venous catheter via jugular vein": [
+        "support devices",
+        null
+    ],
+    "central venous catheter via subclavian vein": [
+        "support devices",
+        null
+    ],
+    "central venous catheter via umbilical vein": [
+        "support devices",
+        null
+    ],
+    "reservoir central venous catheter": [
+        "support devices",
+        null
+    ],
+    "endotracheal tube": [
+        "support devices",
+        null
+    ],
+    "tracheostomy tube": [
+        "support devices",
+        null
+    ],
+    "NSG tube": [
+        "support devices",
+        null
+    ],
+    "chest drain tube": [
+        "support devices",
+        null
+    ],
+    "pacemaker": [
+        "support devices",
+        null
+    ],
+    "dual chamber device": [
+        "unmatched",
+        null
+    ],
+    "single chamber device": [
+        "support devices",
+        null
+    ],
+    "electrical device": [
+        "support devices",
+        null
+    ],
+    "ventriculoperitoneal drain tube": [
+        "support devices",
+        null
+    ],
+    "gastrostomy tube": [
+        "support devices",
+        null
+    ],
+    "nephrostomy tube": [
+        "support devices",
+        null
+    ],
+    "prosthesis": [
+        "support devices",
+        null
+    ],
+    "endoprosthesis": [
+        "support devices",
+        null
+    ],
+    "aortic endoprosthesis": [
+        "support devices",
+        null
+    ],
+    "artificial heart valve": [
+        "support devices",
+        null
+    ],
+    "artificial aortic heart valve": [
+        "support devices",
+        null
+    ],
+    "artificial mitral heart valve": [
+        "support devices",
+        null
+    ],
+    "heart valve calcified": [
+        "support devices",
+        null
+    ],
+    "suture material": [
+        "support devices",
+        null
+    ],
+    "metal": [
+        "support devices",
+        null
+    ],
+    "osteosynthesis material": [
+        "support devices",
+        null
+    ],
+    "unchanged": [
+        "unmatched",
+        null
+    ],
+    "NaN": [
+        "unmatched",
+        null
+    ],
+    "cavitation": [
+        "unmatched",
+        null
+    ],
+    "dai": [
+        "unmatched",
+        null
+    ],
+    "pulmonary hypertension": [
+        "unmatched",
+        null
+    ],
+    "air fluid level": [
+        "unmatched",
+        null
+    ],
+    "kyphosis": [
+        "unmatched",
+        null
+    ],
+    "subacromial space narrowing": [
+        "unmatched",
+        null
+    ],
+    "cyst": [
+        "unmatched",
+        null
+    ],
+    "thoracic cage deformation": [
+        "unmatched",
+        null
+    ],
+    "heart insufficiency": [
+        "unmatched",
+        null
+    ],
+    "empyema": [
+        "unmatched",
+        null
+    ],
+    "double J stent": [
+        "unmatched",
+        null
+    ],
+    "bone cement": [
+        "unmatched",
+        null
+    ],
+    "hyperinflated lung": [
+        "unmatched",
+        null
+    ],
+    "humeral prosthesis": [
+        "unmatched",
+        null
+    ],
+    "surgery": [
+        "unmatched",
+        null
+    ],
+    "fissure thickening": [
+        "unmatched",
+        null
+    ],
+    "lipomatosis": [
+        "unmatched",
+        null
+    ],
+    "major fissure thickening": [
+        "unmatched",
+        null
+    ],
+    "tuberculosis sequelae": [
+        "unmatched",
+        null
+    ],
+    "hemidiaphragm elevation": [
+        "unmatched",
+        null
+    ],
+    "hilar enlargement": [
+        "unmatched",
+        null
+    ],
+    "mediastinic lipomatosis": [
+        "unmatched",
+        null
+    ],
+    "mastectomy": [
+        "unmatched",
+        null
+    ],
+    "scoliosis": [
+        "unmatched",
+        null
+    ],
+    "emphysema": [
+        "unmatched",
+        null
+    ],
+    "hypoexpansion basal": [
+        "unmatched",
+        null
+    ],
+    "adenopathy": [
+        "unmatched",
+        null
+    ],
+    "subcutaneous emphysema": [
+        "unmatched",
+        null
+    ],
+    "pectum excavatum": [
+        "unmatched",
+        null
+    ],
+    "end on vessel": [
+        "unmatched",
+        null
+    ],
+    "respiratory distress": [
+        "unmatched",
+        null
+    ],
+    "calcified fibroadenoma": [
+        "unmatched",
+        null
+    ],
+    "hypoexpansion": [
+        "unmatched",
+        null
+    ],
+    "surgery heart": [
+        "unmatched",
+        null
+    ],
+    "asbestosis signs": [
+        "unmatched",
+        null
+    ],
+    "blastic bone lesion": [
+        "unmatched",
+        null
+    ],
+    "tracheal shift": [
+        "unmatched",
+        null
+    ],
+    "vertebral degenerative changes": [
+        "unmatched",
+        null
+    ],
+    "osteopenia": [
+        "unmatched",
+        null
+    ],
+    "dextrocardia": [
+        "unmatched",
+        null
+    ],
+    "lytic bone lesion": [
+        "unmatched",
+        null
+    ],
+    "costochondral junction hypertrophy": [
+        "unmatched",
+        null
+    ],
+    "lymphangitis carcinomatosa": [
+        "unmatched",
+        null
+    ],
+    "breast mass": [
+        "unmatched",
+        null
+    ],
+    "calcified mediastinal adenopathy": [
+        "unmatched",
+        null
+    ],
+    "post radiotherapy changes": [
+        "unmatched",
+        null
+    ],
+    "minor fissure thickening": [
+        "unmatched",
+        null
+    ],
+    "obesity": [
+        "unmatched",
+        null
+    ],
+    "abnormal foreign body": [
+        "unmatched",
+        null
+    ],
+    "gynecomastia": [
+        "unmatched",
+        null
+    ],
+    "vascular redistribution": [
+        "unmatched",
+        null
+    ],
+    "pericardial effusion": [
+        "unmatched",
+        null
+    ],
+    "right sided aortic arch": [
+        "unmatched",
+        null
+    ],
+    "osteoporosis": [
+        "unmatched",
+        null
+    ],
+    "sternoclavicular junction hypertrophy": [
+        "unmatched",
+        null
+    ],
+    "mammary prosthesis": [
+        "unmatched",
+        null
+    ],
+    "Chilaiditi sign": [
+        "unmatched",
+        null
+    ],
+    "surgery neck": [
+        "unmatched",
+        null
+    ],
+    "goiter": [
+        "unmatched",
+        null
+    ],
+    "hilar congestion": [
+        "unmatched",
+        null
+    ],
+    "diaphragmatic eventration": [
+        "unmatched",
+        null
+    ],
+    "axial hyperostosis": [
+        "unmatched",
+        null
+    ],
+    "pulmonary artery enlargement": [
+        "unmatched",
+        null
+    ],
+    "vascular hilar enlargement": [
+        "unmatched",
+        null
+    ],
+    "tuberculosis": [
+        "unmatched",
+        null
+    ],
+    "COPD signs": [
+        "unmatched",
+        null
+    ],
+    "volume loss": [
+        "unmatched",
+        null
+    ],
+    "aortic atheromatosis": [
+        "unmatched",
+        null
+    ],
+    "pectum carinatum": [
+        "unmatched",
+        null
+    ],
+    "azygos lobe": [
+        "unmatched",
+        null
+    ],
+    "catheter": [
+        "unmatched",
+        null
+    ],
+    "kerley lines": [
+        "unmatched",
+        null
+    ],
+    "esophagic dilatation": [
+        "unmatched",
+        null
+    ],
+    "sternotomy": [
+        "unmatched",
+        null
+    ],
+    "surgery lung": [
+        "unmatched",
+        null
+    ],
+    "lung vascular paucity": [
+        "unmatched",
+        null
+    ],
+    "surgery humeral": [
+        "unmatched",
+        null
+    ],
+    "cervical rib": [
+        "unmatched",
+        null
+    ],
+    "external foreign body": [
+        "unmatched",
+        null
+    ],
+    "central vascular redistribution": [
+        "unmatched",
+        null
+    ],
+    "pneumoperitoneo": [
+        "unmatched",
+        null
+    ],
+    "flattened diaphragm": [
+        "unmatched",
+        null
+    ],
+    "pulmonary artery hypertension": [
+        "unmatched",
+        null
+    ],
+    "calcified densities": [
+        "unmatched",
+        null
+    ],
+    "bone metastasis": [
+        "unmatched",
+        null
+    ],
+    "pneumomediastinum": [
+        "unmatched",
+        null
+    ],
+    "hiatal hernia": [
+        "unmatched",
+        null
+    ],
+    "azygoesophageal recess shift": [
+        "unmatched",
+        null
+    ],
+    "calcified adenopathy": [
+        "unmatched",
+        null
+    ],
+    "nipple shadow": [
+        "unmatched",
+        null
+    ],
+    "exclude": [
+        "unmatched",
+        null
+    ],
+    "pseudonodule": [
+        "unmatched",
+        null
+    ],
+    "pulmonary venous hypertension": [
+        "unmatched",
+        null
+    ],
+    "suboptimal study": [
+        "unmatched",
+        null
+    ],
+    "non axial articular degenerative changes": [
+        "unmatched",
+        null
+    ],
+    "air bronchogram": [
+        "unmatched",
+        null
+    ],
+    "surgery breast": [
+        "unmatched",
+        null
+    ],
+    "hydropneumothorax": [
+        "unmatched",
+        "hydropneumothorax falls under both categories: Pneumothorax and Pleural Effusion. Hydropneumothorax is pneumothorax filled with water. Pleural effusion is also the same"
+    ],
+    "chronic changes": [
+        "unmatched",
+        "need to be more specific"
+    ]
+}

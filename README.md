@@ -36,7 +36,16 @@ python main.py --help
 ## Citation
 
 ```bibtex
-
+@InProceedings{ChhAav_ProMoEFL_MICCAI2026,
+        author = { Chhetri, Aavash AND Niroula, Bibek AND Vazquez, Eduard AND Shrestha, Yash Raj AND Gyawali, Prashnna AND Bazzani, Loris AND Bhattarai, Binod},
+        title = { { ProMoE-FL: Prototype-conditioned Mixture of Experts for Multimodal Federated Learning with Missing Modalities } },
+        booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2026},
+        year = {2026},
+        publisher = {Springer Nature Switzerland},
+        volume = {LNCS 16881},
+        month = {September},
+        page = {pending}
+}
 ```
 ## Acknowledgments
 
